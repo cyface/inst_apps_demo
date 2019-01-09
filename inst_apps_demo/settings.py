@@ -54,7 +54,7 @@ MIDDLEWARE = [
 # Checking for debug to decide to include debug toolbar, but could also be checking to see if we are on a particular env, etc.
 # Also might be any package that is environment dependent, or dependent on other settings
 if DEBUG:
-    INSTALLED_APPS += tuple('debug_toolbar', )
+    INSTALLED_APPS += tuple(['debug_toolbar', ])
     MIDDLEWARE = ['debug_toolbar.middleware.DebugToolbarMiddleware'] + MIDDLEWARE
 
 ROOT_URLCONF = 'inst_apps_demo.urls'
