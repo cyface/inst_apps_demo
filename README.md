@@ -13,5 +13,5 @@ But if it's defined as the older tuple style, it causes PyCharm to be unable to 
 
 This screenshot shows the taglibs showing as unrecognized when the settings are specified as a tuple and then changed later:
 
-![alt text](https://github.com/cyface/inst_apps_demo/raw/master/unrecognized_taglibs.png "Unrecognized Taglib")
+![Unrecognized Taglib](https://github.com/cyface/inst_apps_demo/raw/master/unrecognized_taglibs.png "Unrecognized Taglib")
 
